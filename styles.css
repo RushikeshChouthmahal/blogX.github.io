@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.font1{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    /* cursor: pointer; */
+    transition: all 1s ease-out;
+}
+
+.leftnav{
+    width: 50%;
+    /* background-color: yellowgreen; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid white
+}
+.nav-left-item{
+    display: flex;
+    align-items: center;
+}
+.nav-left-item li{
+    list-style: none;
+    padding: 20px 15px;
+}
+.nav-left-item li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-left-item li a:hover{
+    color: gray;
+}
+.rightnav{
+    width: 50%;
+    /* background-color: orange; */
+    text-align: right;
+}
+#button{
+    margin: 0px 15px 0px 0px;
+}
+#search{
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(navbg2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* section1 */
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 67%;
+    margin: auto;
+    height: 75%;
+}
+.firsthalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-big{
+    font-size: 36px;
+}
+.text-small{
+    font-size: 18px;
+    
+}
+.btn-dark:hover{
+    background-color: white;
+}
+.btn{
+    padding: 6px 13px;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    margin: 9px 0px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid gray;
+}
+.btn-dark:hover{
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgba(61, 60, 60, 0.589);
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 70%;
+    margin: auto;
+    border-radius: 150px;
+    border: 3px solid white;
+    display: block;
+    margin: auto;
+}
+
+/* Section 2 */
+/* right */
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: 70px auto 70px auto;
+}
+.sectag{
+    padding: 16px 0px;
+}
+.para{
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+}
+.fluid{
+    width: 280px;
+    /* height: 280px; */
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+/* Section 3*/
+.sections-left{
+    flex-direction: row-reverse;
+}
+
+/* section 4 */
+.contact{
+    background-color: #7a7e7e2e;
+    padding: 1px 0px;
+}
+.text-center{
+    text-align: center;  
+    font-size: 35px;
+    padding: 15px 0px;
+}
+.form{  
+    margin: 30px auto;
+    max-width: 700px;
+    
+}
+.form-input{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid gray;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 4px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* footer */
+.text-footer{
+    text-align: center;
+    padding: 25px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+footer{
+    background: rgba(0, 0, 0, 0.7) url(navbg2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+}
+.line{
+    height: 4px;
+    width: 33px;
+    background-color: white;
+    margin: 5px 5px;
+}
