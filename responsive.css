@@ -28,6 +28,7 @@
     }
     .responsive-opt{
         opacity: 0;
+        display: none;
     }
     .box-main{
         flex-direction: column-reverse;
@@ -50,5 +51,11 @@
     }
     .para{
         padding: 0;
+    }
+    .container{
+        display: block;
+    }
+    .remove{
+        display: none;
     }
 }
